@@ -35,7 +35,7 @@
   --link-hover-color:             #B22727;
 
   --body-font-family:             'vampire_warsregular', "sans serif";
-  --para-font-family:             'varava_personal_useregular', "sans serif";
+  /* --para-font-family:             'varava_personal_useregular', "sans serif"; */
 
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
@@ -43,15 +43,15 @@
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
-  --p-font-size:                  21px;
-  --btn-font-size:                20px;
+  --p-font-size:                  17px;
+  --btn-font-size:                17px;
   --copyright-font-size:          16px;
 
   --border-radius-large:          100px;
   --border-radius-medium:         20px;
   --border-radius-small:          10px;
 
-  --font-weight-light:            300;
+  --font-weight-light:            50;
   --font-weight-normal:           400;
   --font-weight-bold:             500;
 }
@@ -111,7 +111,7 @@ p {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
-  font-family: var(--para-font-family);
+  /* font-family: var(--para-font-family); */
 }
 
 ul li {
@@ -323,7 +323,7 @@ strong {
   font-weight: var(--font-weight-bold);
   line-height: normal;
   transition: all 0.3s;
-  font-family: var(--para-font-family);
+  /* font-family: var(--para-font-family); */
   padding: 10px 20px;
 }
 
@@ -873,7 +873,7 @@ strong {
 .site-footer-link,
 .copyright-text {
   color: var(--white-color);
-  font-family: var(--para-font-family);
+  /* font-family: var(--para-font-family); */
 }
 
 .site-footer-links {
