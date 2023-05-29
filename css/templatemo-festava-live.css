@@ -25,14 +25,14 @@
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #8f4eff;
-  --secondary-color:              #f068ff;
+  --secondary-color:              #f068ff; 
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #f068ff;
-  --custom-btn-bg-hover-color:    #c01f27;
+  --custom-btn-bg-color:          linear-gradient(45deg, #f068ff, #8f4eff);
+  --custom-btn-bg-hover-color:    #ff0095;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --link-hover-color:             #ff0095;
 
   --body-font-family:             'vampire_warsregular', "sans serif";
   /* --para-font-family:             'varava_personal_useregular', "sans serif"; */
@@ -584,7 +584,7 @@ strong {
 }
 
 .ticket-form {
-  background: var(--white-color);
+  background: linear-gradient(45deg, #f068ff, #8f4eff);;
   border-radius: var(--border-radius-medium);
   padding: 50px;
 }
@@ -630,7 +630,7 @@ strong {
 
 .artists-hover {
   background-color: var(--primary-color);
-  background-color: rgba(248, 203, 46, 0.75);
+  background-color: #8f4eff;
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -774,7 +774,7 @@ strong {
 }
 
 .pricing-tag {
-  background-color: var(--secondary-color);
+  background-color: linear-gradient(45deg, #f068ff, #8f4eff);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-weight: var(--font-weight-bold);
@@ -817,6 +817,8 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
+  border-color: var(--section-bg-color);
+  border-width: 2px;
   color: var(--p-color);
   margin-bottom: 24px;
   padding-top: 13px;
@@ -906,7 +908,7 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  background: linear-gradient(45deg, #f068ff, #8f4eff);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--copyright-font-size);
