@@ -27,7 +27,7 @@
   --primary-color:                #8f4eff;
   --secondary-color:              #f068ff; 
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          linear-gradient(45deg, #f068ff, #8f4eff);
+  --custom-btn-bg-color:          linear-gradient(45deg, #ff0095, #8f4eff);
   --custom-btn-bg-hover-color:    #ff0095;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -718,16 +718,32 @@ strong {
   border-right-color: transparent;
 }
 
-.schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+.schedule-table .natyarpana-background-image {
+  background-image: url('../images/natyarpana.jpeg');
 }
 
-.schedule-table .rock-background-image {
-  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
+.schedule-table .time-background-image {
+  background-image: url('../images/justintime.jpg');
 }
 
-.schedule-table .country-background-image {
-  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+.schedule-table .feetfire-background-image {
+  background-image: url('../images/fire-feet.jpg');
+}
+
+.schedule-table .lunch-background-image {
+  background-image: url('../images/lunchbreak.jpg');
+}
+
+.schedule-table .cini-background-image {
+  background-image: url('../images/unify-cinify.jpg');
+}
+
+.schedule-table .groove-background-image {
+  background-image: url('../images/groove.jpg');
+}
+
+.schedule-table .audi-background-image {
+  background-image: url('../images/photo-audi.jpeg');
 }
 
 .table-background-image-wrap {
