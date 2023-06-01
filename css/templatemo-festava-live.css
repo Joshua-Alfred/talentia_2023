@@ -34,7 +34,9 @@
   --border-color:                 #7fffd4;
   --link-hover-color:             #ff0095;
 
-  --body-font-family:             'vampire_warsregular', "sans serif";
+
+  --title-font-family:            'vampire_warsregular', "sans serif";
+  --body-font-family:             'Outfit', 'sans serif';
   /* --para-font-family:             'varava_personal_useregular', "sans serif"; */
 
   --h1-font-size:                 74px;
@@ -51,9 +53,13 @@
   --border-radius-medium:         20px;
   --border-radius-small:          10px;
 
-  --font-weight-light:            50;
+  --font-weight-light:            300;
   --font-weight-normal:           400;
-  --font-weight-bold:             500;
+  --font-weight-bold:             700;
+  --vampire-weight-light:         50;
+  --vampire-weight-normal:        400;
+  --vampire-weight-bold:          500;
+
 }
 
 body {
