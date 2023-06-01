@@ -45,8 +45,8 @@
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
-  --p-font-size:                  17px;
-  --btn-font-size:                17px;
+  --p-font-size:                  18px;
+  --btn-font-size:                18px;
   --copyright-font-size:          16px;
 
   --border-radius-large:          100px;
@@ -264,7 +264,7 @@ strong {
 }
 
 .tab-content {
-  background-color: var(--white-color);
+  background-color: transparent;
   border-radius: var(--border-radius-medium);
   padding: 45px;
 }
@@ -325,7 +325,7 @@ strong {
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--btn-font-size);
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-weight: var(--font-weight-bold);
   line-height: normal;
   transition: all 0.3s;
@@ -750,6 +750,35 @@ strong {
 
 .schedule-table .audi-background-image {
   background-image: url('../images/photo-audi.jpeg');
+}
+
+.schedule-table .audiolab-background-image {
+  background-image: url('../images/audiolab.jpg');
+}
+
+.schedule-table .default-background-image {
+  background-image: url('../images/default.jpg');
+}
+
+
+.schedule-table .seminar-background-image {
+  background-image: url('../images/seminar.jpg');
+}
+
+.schedule-table .lecture-background-image {
+  background-image: url('../images/lecturehall.jpg');
+}
+
+.schedule-table .exam-background-image {
+  background-image: url('../images/examhall.jpg');
+}
+
+.schedule-table .smartclass-background-image {
+  background-image: url('../images/smartclass.jpg');
+}
+
+.schedule-table .cscri-background-image {
+  background-image: url('../images/csc&ri.jpg');
 }
 
 .table-background-image-wrap {
