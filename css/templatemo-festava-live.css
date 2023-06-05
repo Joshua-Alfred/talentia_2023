@@ -819,7 +819,7 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px; /* Add horizontal spacing between the images */
+  margin: 0 20px; /* Add horizontal spacing between the images */
 }
 
 .image-wrapper img {
