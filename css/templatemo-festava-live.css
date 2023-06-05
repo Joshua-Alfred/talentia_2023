@@ -383,17 +383,27 @@ strong {
   background-color: var(--primary-color);
   flex-wrap: wrap;
   padding-top: 12px;
+  height: auto;
+  overflow: hidden;
   padding-bottom: 12px;
 }
 
+
 .site-header p{
-  display: inline-block;
+  display: inline-flex;
+
   vertical-align: middle;
   white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+  height: 100%;
 }
 
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
 
 /*---------------------------------------
   NAVIGATION              
